@@ -29,7 +29,7 @@ contract Loops {
 
     //Binary search in Solidity
 
-    uint256[10] public arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    //uint256[10] public arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     function binarySearch(uint256 num) public view returns (bool) {
         bool ans = false;
