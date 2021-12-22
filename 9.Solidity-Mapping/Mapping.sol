@@ -7,6 +7,9 @@ contract Mapping {
     /**
         -this mapping will map a pair values
         -mapping similar to hashMap in java
+        -In mapping the keys cannot be arrays or other complex non primitive datatypes
+        -mapping keys are always primitive datatypes
+        -mapping is always stored in contracts storage it costs gas fee
 
  */
     function setter(string memory _currency, string memory name) public {
